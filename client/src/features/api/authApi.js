@@ -28,7 +28,7 @@ export const authApi = createApi({
                     const result = await queryFulfilled;
                     dispatch(userLoggedIn({user:result.data.user}));
                 } catch (error) {
-                    console.log(error);
+                    // console.log(error);
                 }
             }
         }),
@@ -41,7 +41,7 @@ export const authApi = createApi({
                 try { 
                     dispatch(userLoggedOut());
                 } catch (error) {
-                    console.log(error);
+                    // console.log(error);
                 }
             }
         }),
@@ -55,7 +55,7 @@ export const authApi = createApi({
                     const result = await queryFulfilled;
                     dispatch(userLoggedIn({user:result.data.user}));
                 } catch (error) {
-                    console.log(error);
+                    // console.log(error);
                 }
             }
         }),

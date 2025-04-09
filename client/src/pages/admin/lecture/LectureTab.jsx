@@ -58,7 +58,7 @@ const LectureTab = () => {
         });
 
         if (res.data.success) {
-          console.log(res);
+          // console.log(res);
           setUploadVideoInfo({
             videoUrl: res.data.data.url,
             publicId: res.data.data.public_id,
@@ -67,7 +67,7 @@ const LectureTab = () => {
           toast.success(res.data.message);
         }
       } catch (error) {
-        console.log(error);
+        // console.log(error);
         toast.error("video upload failed");
       } finally {
         setMediaProgress(false);
