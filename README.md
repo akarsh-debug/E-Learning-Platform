@@ -97,8 +97,8 @@ npm start
 
 ---
 
-## 🎥 Doc Link
-[Documents](https://docs.google.com/document/d/1e1xXU9bZrT7AChNvd6Zq3yfa9ucBBD4Q/edit?usp=sharing&ouid=105479719341156952479&rtpof=true&sd=true)
+## 🎥 Phase Document
+[Phase Documents](https://docs.google.com/document/d/1e1xXU9bZrT7AChNvd6Zq3yfa9ucBBD4Q/edit?usp=sharing&ouid=105479719341156952479&rtpof=true&sd=true)
 
 ---
 
